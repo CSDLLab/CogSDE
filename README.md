@@ -113,44 +113,5 @@ python pub_evaluation.py --npz_path cfg/full_cfg/npz/rat_cogflow.npz
 ### Default babel
 
 ```bash
-python pub_evaluation.py --preset babel
+python pub_evaluation.py --npz_path cfg/full_cfg/npz/babel_cogflow.npz
 ```
-
-### Rat with `L_bnd`
-
-```bash
-python pub_evaluation.py --preset rat_bnd
-```
-
-Preset defaults:
-
-- `rat`: `10` Euler steps
-- `babel`: `10` Euler steps
-- `rat_bnd`: `100` `lin_poly` steps with `p=5`
-
-You can override the checkpoint path when needed:
-
-```bash
-python pub_evaluation.py --preset rat --ckpt_path /absolute/path/to/checkpoint_best.pt
-```
-
-## Configs
-
-The public presets live in:
-
-```text
-cfg/release/rat.yml
-cfg/release/babel.yml
-cfg/release/rat_bnd.yml
-```
-
-These presets all use:
-
-- `MODEL.M2_DECODER_STYLE: historical_pre_film`
-- `MODEL.SDE_CONTROL_STYLE: encoded`
-
-## Notes
-
-- This public release only exposes rat and babel workflows.
-- Old ETH / NBA / SDD / IMLE entry scripts are intentionally removed from the release surface.
-- `pub_evaluation.py` expects downloaded public checkpoints under `weights/` unless `--ckpt_path` is provided.
