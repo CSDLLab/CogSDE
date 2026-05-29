@@ -30,7 +30,12 @@ Install a PyTorch build that matches your CUDA runtime before running training o
 
 ## Data And Weights
 
-Download the public dataset packages and weight packages from your release assets, then place them in the following locations.
+Download the public dataset packages and weight packages from: 
+```link
+https://drive.google.com/drive/folders/1yxv7f1Kbmaj-isupohGRdxznwEulZx0G?usp=sharing
+```
+
+then place them in the following locations.
 
 ### Rat dataset
 
