@@ -21,8 +21,8 @@ The recommended public entry points are:
 ## Environment
 
 ```bash
-conda create -n cogflow python=3.11 -y
-conda activate cogflow
+conda create -n cogsde python=3.11 -y
+conda activate cogsde
 pip install -r requirements.txt
 ```
 
