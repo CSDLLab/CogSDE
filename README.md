@@ -73,8 +73,8 @@ data/babel/babel_test_cmd.npy
 Place downloaded checkpoints here:
 
 ```text
-weights/rat/checkpoint_best.pt
-weights/babel/checkpoint_best.pt
+results_rat/cor_rat_fm_mn_std/m3_drift_diffusion/models/checkpoint_best.pt
+results_babel/cor_babel_fm_m1_std/m3_drift_diffusion/models/checkpoint_best.pt
 ```
 
 ## Train
