@@ -202,12 +202,7 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-data/rat/h10p20_1103/
-data/rat/h30p30_1103/
-data/rat/hist10pred20/rat_test.npy
-data/rat/hist10pred20/rat_train.npy
-data/rat/hist10pred20/rat_val.npy
-
+data/rat_ver2_smooth_3030_2
 cfg/rat/log/
 cfg/rat/models/
 
@@ -227,4 +222,9 @@ cfg/full_cfg/log/
 cfg/full_cfg/npz/
 cfg/full_cfg/tb_eval/
 
-data/
+data/rat/
+data/babel_3060/
+data/dataloader_eth_ucy.py
+data/dataloader_nba.py
+data/dataloader_sdd.py
+.gitignore
